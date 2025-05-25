@@ -1,6 +1,11 @@
+name: Test Action
+
+on: 
+  workflow_dispatch:   # Allows you to trigger the workflow manually
 
 jobs:
   test:
+    runs-on: ubuntu-latest
     steps:
       - name: 24f2001499@ds.study.iitm.ac.in
         run: echo "Hello, world!"
