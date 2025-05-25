@@ -1,7 +1,7 @@
 name: Test Action
 
-on: 
-  workflow_dispatch:   # Allows you to trigger the workflow manually
+on:
+  workflow_dispatch:  # Allows manual trigger from the Actions tab
 
 jobs:
   test:
